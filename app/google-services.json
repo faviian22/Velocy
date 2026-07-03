@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1051532812214",
+    "firebase_url": "https://tugas-akhir-74754-default-rtdb.firebaseio.com",
+    "project_id": "tugas-akhir-74754",
+    "storage_bucket": "tugas-akhir-74754.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051532812214:android:d50851cb175735d5f42b17",
+        "android_client_info": {
+          "package_name": "com.myapp.velocy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbEVMDlnByC9kwB95RcO7kuswvNlZVlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

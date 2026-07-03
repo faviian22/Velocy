@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F9FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:paddingTop="48dp"
+        android:gravity="center_horizontal">
+
+        <!-- BACK + HEADER ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="36dp">
+
+            <FrameLayout
+                android:id="@+id/btnBack"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:background="@drawable/bg_btn_ghost"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:elevation="2dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_back_modern"
+                    app:tint="#2563EB" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Buat Akun"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0F172A"
+                android:gravity="center" />
+
+            <!-- Spacer to balance back button -->
+            <View
+                android:layout_width="46dp"
+                android:layout_height="46dp" />
+        </LinearLayout>
+
+        <!-- FORM CARD -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="3dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Accent line -->
+                <View
+                    android:layout_width="48dp"
+                    android:layout_height="2dp"
+                    android:background="#2563EB"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Email Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.15"
+                    android:textStyle="bold"
+                    android:textColor="#2563EB"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Email Input -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_input_dark"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@android:drawable/ic_dialog_email"
+                        app:tint="#94A3B8" />
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Masukkan email"
+                        android:inputType="textEmailAddress"
+                        android:textSize="14sp"
+                        android:textColor="#0F172A"
+                        android:textColorHint="#94A3B8"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="16dp"
+                        android:background="@null" />
+                </LinearLayout>
+
+                <!-- Password Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KATA SANDI"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.15"
+                    android:textStyle="bold"
+                    android:textColor="#2563EB"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Password Input -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_input_dark"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@android:drawable/ic_lock_lock"
+                        app:tint="#94A3B8" />
+
+                    <EditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Masukkan kata sandi"
+                        android:inputType="textPassword"
+                        android:textSize="14sp"
+                        android:textColor="#0F172A"
+                        android:textColorHint="#94A3B8"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="16dp"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/btnTogglePassword"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_eye"
+                        app:tint="#94A3B8" />
+                </LinearLayout>
+
+                <!-- Confirm Password Label -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KONFIRMASI KATA SANDI"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.15"
+                    android:textStyle="bold"
+                    android:textColor="#2563EB"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Confirm Password Input -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_input_dark"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="32dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@android:drawable/ic_lock_lock"
+                        app:tint="#94A3B8" />
+
+                    <EditText
+                        android:id="@+id/etConfirmPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Konfirmasi kata sandi"
+                        android:inputType="textPassword"
+                        android:textSize="14sp"
+                        android:textColor="#0F172A"
+                        android:textColorHint="#94A3B8"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="16dp"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/btnToggleConfirm"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_eye"
+                        app:tint="#94A3B8" />
+                </LinearLayout>
+
+                <!-- Daftar Button -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="8dp"
+                    app:cardBackgroundColor="#2563EB">
+
+                    <Button
+                        android:id="@+id/btnDaftar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BUAT AKUN"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.08"
+                        android:backgroundTint="@android:color/transparent"
+                        android:stateListAnimator="@null" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Login Link -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun? "
+                android:textSize="13sp"
+                android:textColor="#64748B" />
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masuk"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#2563EB" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

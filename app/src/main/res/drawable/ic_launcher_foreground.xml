@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ===== PETA / MAPS BACKGROUND ===== -->
+
+    <!-- Base map -->
+    <path android:fillColor="#0D1E35"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Blok area kota -->
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M5,5 L25,5 L25,20 L5,20 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M30,4 L48,4 L48,16 L30,16 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M55,5 L75,5 L75,22 L55,22 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M80,5 L103,5 L103,25 L80,25 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M5,35 L22,35 L22,55 L5,55 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M80,38 L103,38 L103,58 L80,58 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M5,75 L25,75 L25,103 L5,103 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M30,80 L55,80 L55,103 L30,103 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M60,80 L80,80 L80,103 L60,103 Z"/>
+    <path android:fillColor="#102740" android:strokeColor="#1E3A6E" android:strokeWidth="0.3"
+        android:pathData="M83,75 L103,75 L103,103 L83,103 Z"/>
+
+    <!-- Jalan horizontal utama -->
+    <path android:fillColor="#172D4A"
+        android:pathData="M0,62 L108,62 L108,67 L0,67 Z"/>
+
+    <!-- Jalan vertikal utama -->
+    <path android:fillColor="#172D4A"
+        android:pathData="M27,0 L32,0 L32,108 L27,108 Z"/>
+
+    <!-- Jalan horizontal kecil -->
+    <path android:fillColor="#122338"
+        android:pathData="M0,26 L108,26 L108,29 L0,29 Z"/>
+    <path android:fillColor="#122338"
+        android:pathData="M0,76 L108,76 L108,79 L0,79 Z"/>
+
+    <!-- Jalan vertikal kecil -->
+    <path android:fillColor="#122338"
+        android:pathData="M55,0 L58,0 L58,108 L55,108 Z"/>
+    <path android:fillColor="#122338"
+        android:pathData="M80,0 L83,0 L83,108 L80,108 Z"/>
+
+    <!-- Rute biru -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M15,64 L29,64 L29,27 L56,27 L56,64 L81,64 L81,76"/>
+
+    <!-- Titik awal rute -->
+    <path android:fillColor="#60A5FA"
+        android:pathData="M15,64 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"/>
+
+    <!-- Pin tujuan lingkaran luar -->
+    <path android:fillColor="#2563EB"
+        android:pathData="M81,76 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/>
+    <!-- Pin tujuan titik dalam -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M81,76 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"/>
+
+    <!-- ===== MOTOR ===== -->
+
+    <!-- Shadow -->
+    <path android:fillColor="#000000" android:fillAlpha="0.4"
+        android:pathData="M32,88 Q54,92 76,88 Q54,96 32,88 Z"/>
+
+    <!-- Roda belakang -->
+    <path android:fillColor="#060E1F" android:strokeColor="#2563EB" android:strokeWidth="2"
+        android:pathData="M26,72 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0"/>
+    <path android:fillColor="#060E1F" android:strokeColor="#3B82F6" android:strokeWidth="1"
+        android:pathData="M26,72 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0"/>
+    <path android:fillColor="#1D4ED8"
+        android:pathData="M26,72 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path android:fillColor="#93C5FD"
+        android:pathData="M26,72 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M26,56 L26,88"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M10,72 L42,72"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M14.7,60.7 L37.3,83.3"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M37.3,60.7 L14.7,83.3"/>
+
+    <!-- Roda depan -->
+    <path android:fillColor="#060E1F" android:strokeColor="#2563EB" android:strokeWidth="2"
+        android:pathData="M82,72 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0"/>
+    <path android:fillColor="#060E1F" android:strokeColor="#3B82F6" android:strokeWidth="1"
+        android:pathData="M82,72 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0"/>
+    <path android:fillColor="#1D4ED8"
+        android:pathData="M82,72 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path android:fillColor="#93C5FD"
+        android:pathData="M82,72 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M82,56 L82,88"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M66,72 L98,72"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M70.7,60.7 L93.3,83.3"/>
+    <path android:fillColor="#00000000" android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" android:strokeAlpha="0.5"
+        android:pathData="M93.3,60.7 L70.7,83.3"/>
+
+    <!-- Rangka/swing arm -->
+    <path android:fillColor="#00000000" android:strokeColor="#1E40AF"
+        android:strokeWidth="3.5" android:strokeLineCap="round"
+        android:pathData="M40,72 L68,72"/>
+
+    <!-- Body motor utama -->
+    <path android:fillColor="#2563EB" android:strokeColor="#60A5FA" android:strokeWidth="1"
+        android:pathData="M36,66 L50,54 L64,51 L76,55 L83,63 L82,72 L64,72 L40,72 L34,69 Z"/>
+
+    <!-- Highlight body -->
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.09"
+        android:pathData="M40,67 L50,57 L63,54 L74,58 L79,65 L68,61 L54,57 L42,68 Z"/>
+
+    <!-- Fairing depan -->
+    <path android:fillColor="#1E40AF" android:strokeColor="#60A5FA" android:strokeWidth="1"
+        android:pathData="M76,55 L85,61 L87,69 L83,72 L82,72 L83,63 Z"/>
+
+    <!-- Kaca fairing -->
+    <path android:fillColor="#BFDBFE" android:fillAlpha="0.28"
+        android:strokeColor="#93C5FD" android:strokeWidth="0.6"
+        android:pathData="M77,57 L84,62 L85,69 L79,65 L75,59 Z"/>
+
+    <!-- Tangki -->
+    <path android:fillColor="#1E40AF" android:strokeColor="#60A5FA" android:strokeWidth="1"
+        android:pathData="M50,54 L64,51 L66,46 L54,43 L44,48 Z"/>
+
+    <!-- Jok -->
+    <path android:fillColor="#0F172A" android:strokeColor="#334155" android:strokeWidth="0.8"
+        android:pathData="M36,66 L44,48 L54,43 L56,46 L50,54 Z"/>
+
+    <!-- Garpu depan -->
+    <path android:fillColor="#1E3A8A" android:strokeColor="#60A5FA" android:strokeWidth="0.8"
+        android:pathData="M80,66 L82,72 L86,72 L84,66 Z"/>
+
+    <!-- Setang -->
+    <path android:fillColor="#00000000" android:strokeColor="#93C5FD"
+        android:strokeWidth="1.5" android:strokeLineCap="round"
+        android:pathData="M68,53 L62,48 L56,50"/>
+    <path android:fillColor="#00000000" android:strokeColor="#93C5FD"
+        android:strokeWidth="1.5" android:strokeLineCap="round"
+        android:pathData="M68,53 L74,49 L81,52"/>
+
+    <!-- Lampu depan -->
+    <path android:fillColor="#BFDBFE" android:fillAlpha="0.95"
+        android:pathData="M85,63 m-4,0 a4,3 0 1,0 8,0 a4,3 0 1,0 -8,0"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M85,63 m-2,0 a2,1.5 0 1,0 4,0 a2,1.5 0 1,0 -4,0"/>
+
+    <!-- Knalpot -->
+    <path android:fillColor="#0F172A" android:strokeColor="#1E3A6E" android:strokeWidth="0.8"
+        android:pathData="M36,72 L30,75 L68,77 L72,72 Z"/>
+    <path android:fillColor="#1E3A6E" android:strokeColor="#3B82F6" android:strokeWidth="0.8"
+        android:pathData="M30,74 m-3.5,0 a3.5,2.5 0 1,0 7,0 a3.5,2.5 0 1,0 -7,0"/>
+
+</vector>
